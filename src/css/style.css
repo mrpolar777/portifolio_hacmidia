@@ -457,7 +457,7 @@ header {
 	display: none;
 }
 /* Media Queries */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     /* Menu Principal (Header) */
     header {
         gap: 15px;
@@ -483,7 +483,7 @@ header {
 
     /* Hero */
     .hero {
-		width: 100%;
+		width: 70%;
         flex-direction: column-reverse; 
         gap: 30px;
     }
@@ -500,7 +500,7 @@ header {
 		text-align: left;
     }
     .hero__image img {
-        width: 222px;
+        width: 422px;
 		height: auto;
     }
 
@@ -615,5 +615,28 @@ header {
     .footer__links {
         flex-direction: column; 
         gap: 10px;
+    }
+}
+
+/* Telas de até 600px (Celulares) */
+@media (max-width: 600px) {
+    /* Cards de Estatísticas */
+    .cards {
+        flex-direction: column;
+        width: 90%;
+    }
+    .card__content {
+        width: 100%; 
+        max-width: 300px;
+    }
+
+    .hero__content h2 {
+        font-size: 30px; 
+    }
+    .hero__content p {
+        font-size: 16px;
+    }
+    .form h2 {
+        font-size: 30px;
     }
 }
