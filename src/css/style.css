@@ -457,7 +457,7 @@ header {
 	display: none;
 }
 /* Media Queries */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     /* Menu Principal (Header) */
     header {
         gap: 15px;
